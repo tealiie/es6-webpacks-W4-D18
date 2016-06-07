@@ -68,7 +68,7 @@ This is a small tutorial on how to use webpack to transpile and bundle ES6 code 
   }
   ```
 
-* Create some folders with `mkdir html js views build`.
+* Create some folders with `mkdir html js views`.
 
 * Create `html/index.html`:
 
@@ -91,7 +91,7 @@ This is a small tutorial on how to use webpack to transpile and bundle ES6 code 
 
   ```js
   import request from 'superagent'
-  import imageTemplate from '../view/image.hbs'
+  import imageTemplate from '../views/image.hbs'
 
   const showImage = (err, res) => {
     const placeholder = document.getElementsById('placeholder')
