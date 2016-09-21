@@ -7,11 +7,11 @@ const showImage = (err, res) => {
 }
 
 const getImage = () => {
-  showImage(null, { 
-    body: { 
-      title: 'DEMO', 
-      explanation: 'DEMO' 
-    } 
+  showImage(null, {
+    body: {
+      title: 'DEMO',
+      explanation: 'DEMO'
+    }
   })
 }
 

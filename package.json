@@ -1,0 +1,32 @@
+{
+  "name": "es6-webpack",
+  "version": "1.0.0",
+  "description": "This is a small tutorial on how to use webpack to transpile and bundle ES6 code for use in the browser. Thanks to [Alex Rauschmayer](http://rauschma.de) for his [webpack-babel-demo](https://github.com/rauschma/webpack-babel-demo) repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahikatea-2016/es6-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahikatea-2016/es6-webpack/issues"
+  },
+  "homepage": "https://github.com/kahikatea-2016/es6-webpack#readme",
+  "babel": {
+  "presets": ["es2015"]
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "handlebars": "^4.0.5",
+    "handlebars-loader": "^1.4.0",
+    "superagent": "^2.3.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
